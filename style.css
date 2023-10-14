@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 80px 0;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 50px;
+}
+
+.image-main {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.description {
+    width: 1168px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.description p {
+    width: 45%;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.form-container {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    width: 1168px;
+    height: 322px;
+    padding: 25px 50px 25px 50px;
+    border-radius: 20px;
+    gap: 10px;
+    margin: 50px auto;
+}
+
+.order-form {
+    width: 416px;
+    height: 248px;
+    gap: 24px;
+    margin: 0 50px;
+}
+
+.form-fiel {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 416px;
+    height: 52px;
+    padding: 11px 24px 11px 24px;
+    border: 0;
+    border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.form-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    width: 207px;
+    height: 52px;
+    padding: 11px 54px 11px 54px;
+    border-radius: 10px;
+    border: 0;
+    gap: 10px;
+    background: #3D3BFF;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+
